@@ -10,7 +10,17 @@
 }
 
 .border {
-    border: 1px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+.border2 {
+    border-bottom: 3px solid white;
+}
+
+.border3 {
+    border-bottom: 2px solid white;
 }
 
 img {
@@ -38,12 +48,26 @@ img {
     width: 20%;    
     background-color: rgb(112, 204, 194);
     float: left;
+    line-height: 18px;
+}
+
+.box-pt {
+    display: block;
+    margin-top: 10px;
+    padding-bottom: 7px;
+}
+
+.box3-pt {
+    display: block;
+    padding-bottom: 3px;
+    margin-top: 2px;
 }
 
 .box-3 {
-    width: 42.2%;
+    width: 43%;
     background-color: rgb(98, 179, 170);
     float: left;
+    line-height: 12px;
 }
 
 .clearfix {
